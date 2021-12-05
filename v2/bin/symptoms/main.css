@@ -1,0 +1,117 @@
+body {
+	margin: 25px;
+	background-color: rgba(0,0,0,0.12);
+}
+
+h1, h3, h5 {
+	font-family: Garamond;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px;
+	background-color: #222222;
+	color: #FFFFFF;
+	margin: 10px 0px 0px 0px;
+}
+
+h3 {
+	font-variant: small-caps;
+	font-size: 30px;
+	border-left: 6px solid blue;
+	padding-left: 10px;
+	color: blue;
+}
+
+h5 {
+	font-size: 22px;
+	color: green;
+}
+
+hr {
+	height: 5px;
+	background-color: #222222;
+	margin-top: 3px;
+}
+
+img {
+	margin: 20px;
+}
+
+.pic {
+	border: 5px solid #AAAAAA;
+}
+
+.fever, .family  {
+	float: right;
+	width: 35%;
+}
+
+ul {
+	margin: 15px;
+	padding: 15px 15px 15px 45px;
+	border: 2px solid #333;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	background-color: #FFFFFF;
+}
+
+.ul_fever, .ul_family {
+	width: 50%;
+}
+
+li {
+	list-style-image: url('images/bullet.jpg');
+	line-height: 22px;
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+dd {
+	font-weight: normal;
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+	font-family: Garamond;
+	font-size: 20;
+}
+
+p.main {
+	text-indent: 40px;
+}
+
+p.main:first-letter {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+caption {
+	font-weight: bold;
+	margin: 8px;
+}
+
+table {
+	font-family:Garamond;
+	background-color: #FFFFFF;
+	margin: 30px 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+td, th {
+	padding: 8px;
+}
+
+th {
+	background-color: #222222;
+	color: #EEE;
+}
+
+.tr_1 {
+	background-color: #EEEEEE;
+}
+.tr_2 {
+	background-color: #CCCCCC;
+}

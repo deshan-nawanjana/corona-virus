@@ -1,0 +1,99 @@
+
+.more {
+	padding-bottom: 12vh;
+	background: rgba(0,0,0,0.06) url('images/backgrounds/shape-a.png') center no-repeat;
+	background-size: cover;
+}
+
+.m_title {
+	padding-top: 80px;
+	margin-top: 5vh;
+	font-size: 1.4vw;
+	font-weight: bold;
+	color: #1a75ff;
+	text-align: center;
+}
+
+.m_subtitle {
+	margin-top: 1vh;
+	font-size: 2.9vw;
+	font-weight: bold;
+	color: #2d5986;
+	text-align: center;
+}
+
+.m_text {
+	float: left;
+	padding: 2vh 27vw;
+	text-align: center;
+	font-size: 1.1vw;
+	color: #555;
+}
+
+
+.m_itm_box {
+	padding: 0vh 0vw 1vh 12vw;
+}
+
+.m_ib_itm {
+	width: 36vw;
+	height: 36vh;
+	margin: 1vw;
+	display: inline-block;
+	font-size: 1.1vw;
+	margin-top: 3vh;
+}
+
+.m_ib_img {
+	width: 40vh;
+	height: 40vh;
+	border-radius: 20vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80% auto;
+	margin-left: calc(18vw - 20vh);
+}
+
+.m_ibi_1 { background-image: url('images/cliparts/more-a.png'); }
+.m_ibi_2 { background-image: url('images/cliparts/more-b.png'); }
+
+
+.m_ibt_m {
+	text-align: center;
+	color: #333;
+	padding: 2vh 1vw 1vh 1vw;
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+
+.m_ibt_s {
+	text-align: center;
+	color: #444;
+	padding: 0.3vh 6vw 2vh 6vw;
+	font-size: 1vw;
+	height: 14vh;
+	overflow: hidden;
+}
+
+.m_btn {
+	display: inline-block;
+	padding: 1vh 3vw;
+	background: #1a75ff;
+	cursor: pointer;
+	color: #FFF;
+	border-radius: 50vh;
+	line-height: 6vh;
+	font-size: 0.95vw;
+	transition: 0.3s all;
+	width: 10vw;
+	text-align: center;
+	margin-left: 9.5vw;
+}
+
+.m_btn:hover {
+	background: #0052cc;
+}
+
+.m_ib_txt {
+	height: 15vh;
+}

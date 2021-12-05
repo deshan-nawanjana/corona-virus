@@ -1,0 +1,150 @@
+.ribbon {
+	width: 100vw;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 65px;
+	line-height: 65px;
+	background: rgba(0,0,0,0.96);
+	box-shadow: 0px 0px 20px rgba(80, 101, 142, 0);
+	z-index: 2;
+}
+
+.ribbon_logo {
+	float: left;
+	width: 170px;
+	height: 65px;
+	background-image: url('images/icons/logo.png');
+	background-repeat: no-repeat;
+	background-position: 14px center;
+	background-size: auto 52px;
+	padding-right: 10vw;
+}
+.ribbon_button {
+	float: left;
+	height: inherit;
+	text-align: center;
+	margin-right: 3vw;
+	color: #EEE;
+	font-size: 0.92vw;
+	cursor: pointer;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.7);
+	transition: 0.4s color;
+}
+
+.ribbon_button:hover {
+	color: #1a75ff;
+}
+
+.cover {
+	height: 70vh;
+	background-image: url('images/backgrounds/victor-he-px9z5Zijwo8-unsplash.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation-name: cover_animation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes cover_animation {
+	0% { background-image: url('images/backgrounds/victor-he-px9z5Zijwo8-unsplash.jpg'); }
+	33% { background-image: url('images/backgrounds/pille-riin-priske-O5Fo4vUuIBM-unsplash.jpg'); }
+	66% { background-image: url('images/backgrounds/cheng-feng-HmL5JPc3wzU-unsplash.jpg'); }
+	100% { background-image: url('images/backgrounds/victor-he-px9z5Zijwo8-unsplash.jpg'); }
+}
+
+.cover_darker {
+	height: 70vh;
+	background: rgba(0,0,0,0.46);
+}
+
+.cover_inner {
+	width: 40vw;
+	padding: 15vh;
+}
+
+.cover_title {
+	font-size: 4vw;
+	color: #FFF;
+	font-family: 'Trocchi Regular';
+	padding-top: 9vh;
+}
+
+.cover_description {
+	color: rgba(255,255,255,0.88);
+	font-size: 1.1vw;
+	font-family: 'Rubik Light';
+	margin-top: 2.5vh;
+}
+
+.cover_button_box {
+	padding-top: 4vh;
+}
+
+.cover_button {
+	display: inline-block;
+	width: 12vw;
+	line-height: 6vh;
+	border-radius: 7vh;
+	text-align: center;
+	font-family: 'Roboto Medium';
+	font-size: 0.86vw;
+	cursor: pointer;
+	margin-right: 1vw;
+}
+
+.cover_button_1 {
+	background: #009933;
+	color: rgba(255,255,255,0.85);
+	border: 0.2vw solid #009933;
+}
+
+.cover_button_2 {
+	background: #FFF;
+	color: rgba(0,0,0,0.65);
+	border: 0.2vw solid rgba(255,255,255,0);
+}
+
+
+
+.project_button {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	top: calc(100vh - 90px);
+	left: calc(100vw - 105px);
+	background: #222;
+	border-radius: 40px;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all 0.3s;
+}
+
+.project_button:hover {
+	width: 260px;
+	left: calc(100vw - 305px);
+	background: #003d99;
+}
+
+.project_button_icon {
+	width: 60px;
+	text-align: center;
+	float: left;
+}
+
+.project_button_icon::before {
+	font-size: 20px;
+	color: #FFF;
+	width: 80px;
+	content: '\f500';
+	line-height: 60px;
+	font-family: 'FontAwesome Solid';
+}
+
+.project_button_text {
+	white-space: nowrap;
+	line-height: 60px;
+	color: #FFF;
+	font-size: 12px;
+}

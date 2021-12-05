@@ -1,0 +1,78 @@
+.about_title_box {
+	margin-top: calc(65px + 2vh);
+	margin-bottom: 3vh;
+}
+
+.about_title_small {
+	padding-top: 3vh;
+	margin-top: 5vh;
+	font-size: 1.4vw;
+	font-weight: bold;
+	color: #1a75ff;
+	text-align: center;
+}
+
+.about_title_large {
+	margin-top: 1vh;
+	font-size: 2.9vw;
+	font-weight: bold;
+	color: #2d5986;
+	text-align: center;
+}
+
+.about_box {
+	padding: 2vh 10vh;
+	height: 68vh;
+	background-image: url('images/cliparts/gfx-a.png');
+	background-position: 8vw 2vh;
+	background-repeat: no-repeat;
+	background-size: 30vw auto;
+}
+
+.about_box_inner {
+	padding-top: 3vh;
+}
+
+.about_box_item {
+	text-align: justify;
+	font-family: 'Trocchi Regular';
+	font-size: 1.1vw;
+	width: 45vw;
+	margin-left: 35vw;
+	margin-bottom: 5vh;
+	display: list-item;
+	padding-inline-start: 1vw;
+}
+.about_box_item::marker {
+	list-style-type: 'a';
+	content: '\f058';
+	font-family: 'FontAwesome Solid';
+	color: #2eb82e;
+}
+
+.about_box_button {
+	width: 30vw;
+	height: 4.6vh;
+	line-height: 4.6vh;
+	background: #06f;
+	color: #FFF;
+	font-family: 'Rubik Light';
+	padding: 1.4vh;
+	text-align: center;
+	border-radius: 4vh;
+	margin: 7vh 0vw 2vh 45vw;
+	font-size: 1vw;
+	cursor: pointer;
+	transition: 0.3s background;
+}
+
+.about_box_button:hover {
+	background: #0047b3;
+}
+
+.about_box_button::after {
+	content: '\f061';
+	margin-left: 1vw;
+	font-family: 'FontAwesome Solid';
+	color: #FFF;
+}

@@ -1,0 +1,28 @@
+body{ 
+    background-color:#C69F96;  
+    font-family:Arial;
+    font-size:20;
+}
+
+ul li{
+    background: #cce5ff;
+    margin: 5px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+h1 {
+    color:#4A235A ;
+}
+
+h2 {
+    color:#943126  ;
+}
+
+h3 {
+    color:#1A5276  ;
+}
